@@ -7,21 +7,20 @@ All sitting on top of [Node.js](http://nodejs.org/).
 
 ### Setup
 
-Install [Node.js](http://nodejs.org/)
+* Install [Node.js](http://nodejs.org/)
 
-Install npm packages
+* Install npm packages
 ```
 npm install
 ```
-
-Start the Mullet Server
+* Start the Mullet Server
 ```
 node .
 ```
 
 ### Get the Party Started
 
-Point your browser to `http://localhost:8000` to see the index page!
+* Point your browser to `http://localhost:8000` to see the index page!
 
 ### But Seriously
 
