@@ -4,20 +4,31 @@
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
-### Setup
+### Get the Party Started
 
 Install [Node.js](http://nodejs.org/)
 
-Install npm packages:
+Setup the mullet stack:
 ```
+git clone https://github.com/lynnaloo/mullet
+cd mullet
 npm install
 ```
+
+OR 
+
+Install the mullet npm module:
+
+```
+npm install mullet
+```
+
 Start the Mullet Server:
 ```
 npm start
 ```
 
-### Get the Party Started
+### Party On
 
 Point your browser to `http://localhost:8000` to see the index page!
 
