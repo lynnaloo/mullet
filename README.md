@@ -4,7 +4,8 @@
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
-### Get the Party Started
+Get the Party Started
+----
 
 Install [Node.js](http://nodejs.org/)
 
@@ -28,18 +29,22 @@ Start the Mullet Server:
 npm start
 ```
 
-### Party On
+Party On
+----
 
 Point your browser to `http://localhost:8000` to see the index page!
 
-### But Seriously
+But Seriously
+----
 
 This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
 
-### Contributors
+Contributors
+----
 
 Mullet Stack was created on a Thursday night by Linda Nichols (@lynnaloo). Name inspiration by Ryan Brunsvold (@brunsvold) who probably wishes to not be credited on something called "The Mullet Stack." 
 
-### Support or Contact
+Contact
+----
 
 Twitter: [@lynnaloo](http://www.twitter.com/lynnaloo)
