@@ -15,7 +15,7 @@ npm install
 ```
 * Start the Mullet Server
 ```
-node .
+npm start
 ```
 
 ### Get the Party Started
