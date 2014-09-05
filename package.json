@@ -4,7 +4,7 @@
   "description": "Facebook in the front. Walmart in the back.",
   "main": "walmart.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node walmart.js"
   },
   "repository": {
@@ -23,9 +23,12 @@
   "bugs": {
     "url": "https://github.com/lynnaloo/mullet/issues"
   },
-  "homepage": "https://github.com/lynnaloo/mullet",
+  "homepage": "http://mullet.io",
   "dependencies": {
     "hapi": "^6.7.1",
     "react-tools": "^0.11.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.1.18"
   }
 }
