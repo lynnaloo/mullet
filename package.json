@@ -1,0 +1,29 @@
+{
+  "name": "mullet",
+  "version": "0.0.0",
+  "description": "Facebook in the front. Walmart in the back.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lynnaloo/mullet.git"
+  },
+  "keywords": [
+    "react",
+    "hapi",
+    "node",
+    "Facebook",
+    "Walmart"
+  ],
+  "author": "Linda Nichols",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lynnaloo/mullet/issues"
+  },
+  "homepage": "https://github.com/lynnaloo/mullet",
+  "dependencies": {
+    "hapi": "^6.7.1"
+  }
+}
