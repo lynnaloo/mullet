@@ -1,7 +1,7 @@
 {
   "name": "mullet",
   "version": "0.0.3",
-  "description": "Facebook in the front. Walmart in the back.",
+  "description": "Mullet Stack: Facebook in the front. Walmart in the back. (React.js/Hapi)",
   "main": "walmart.js",
   "scripts": {
     "test": "jest",
