@@ -4,6 +4,8 @@
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
+[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet)
+
 Get the Party Started
 ----
 
