@@ -18,5 +18,5 @@ server.route({
 
 // Start your Mullet Server
 server.start(function () {
-  console.log('The Mullet Stack is running at:', server.info.uri);
+  console.log('The Mullet Stack is running on port:', PORT);
 });
