@@ -10,14 +10,13 @@ All sitting on top of [Node.js](http://nodejs.org/).
 * Install [Node.js](http://nodejs.org/)
 
 * Install npm packages
-
-
-    npm install
-
+```
+npm install
+```
 * Start the Mullet Server
-
-
-    npm start
+```
+npm start
+```
 
 ### Get the Party Started
 
