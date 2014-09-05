@@ -1,6 +1,6 @@
 {
   "name": "mullet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Facebook in the front. Walmart in the back.",
   "main": "walmart.js",
   "scripts": {
