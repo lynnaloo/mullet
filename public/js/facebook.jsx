@@ -3,10 +3,15 @@
 var Facebook = React.createClass({
   render: function() {
     return (
-      <p>
-        Welcome to the Mullet Stack. Facebook in the front. Walmart in the back.
-        Party on!
-      </p>
+      <div>
+        <h1>Welcome to the Mullet Stack.</h1>
+        <p>
+          Facebook in the front. Walmart in the back.
+        </p>
+        <p>
+          Party on!
+        </p>
+      </div>
     );
   }
 });
