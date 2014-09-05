@@ -1,8 +1,8 @@
 {
   "name": "mullet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Facebook in the front. Walmart in the back.",
-  "main": "index.js",
+  "main": "walmart.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/lynnaloo/mullet",
   "dependencies": {
-    "hapi": "^6.7.1"
+    "hapi": "^6.7.1",
+    "react-tools": "^0.11.1"
   }
 }
