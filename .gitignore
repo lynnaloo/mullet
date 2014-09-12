@@ -1,2 +1,4 @@
 node_modules
+public/js/app.built.js
+public/js/bower_components/
 .DS_Store

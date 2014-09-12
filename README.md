@@ -18,7 +18,7 @@ cd mullet
 npm install
 ```
 
-OR 
+OR
 
 Install the mullet npm module:
 
@@ -29,9 +29,14 @@ npm install mullet
 Start the Mullet Server:
 ```
 npm start
+
+```
+To use Grunt compilation during development:
+```
+grunt watch
 ```
 
-Party On
+Party On!
 ----
 
 Point your browser to `http://localhost:8000` to see the index page!
@@ -41,12 +46,12 @@ But Seriously
 
 This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
 
-Note: The React.js setup is similiar to the [React tutorial](https://github.com/reactjs/react-tutorial), but this could be upgraded to instead use the CommonJS module instead.
+Note: The React.js setup uses the React CommonJS module.
 
 Contributors
 ----
 
-Mullet Stack was created on a Thursday night by Linda Nichols (@lynnaloo). Name inspiration by Ryan Brunsvold (@brunsvold) who probably wishes to not be credited on something called "The Mullet Stack." 
+Mullet Stack was created on a Thursday night by Linda Nichols (@lynnaloo). Name inspiration by Ryan Brunsvold (@brunsvold) who probably wishes to not be credited on something called "The Mullet Stack."
 
 Contact
 ----

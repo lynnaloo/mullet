@@ -4,8 +4,14 @@
   "description": "Mullet Stack: Facebook in the front. Walmart in the back. (React.js/Hapi)",
   "main": "walmart.js",
   "scripts": {
+    "preinstall": "",
     "test": "jest",
-    "start": "node walmart.js"
+    "start": "node walmart.js",
+    "postinstall": "grunt default && bower install",
+    "ci": "npm install && npm test"
+  },
+  "engines": {
+    "node": "^0.10"
   },
   "repository": {
     "type": "git",
@@ -23,12 +29,22 @@
   "bugs": {
     "url": "https://github.com/lynnaloo/mullet/issues"
   },
-  "homepage": "http://mullet.io",
+  "homepage": "http://www.mullet.io",
   "dependencies": {
-    "hapi": "^6.7.1"
+    "hapi": "^6.7.1",
+    "react": "^0.11.1",
+    "body-parser": "1.0.2",
+    "bower": "^1.3.9",
+    "grunt-cli": "^0.1.13"
   },
   "devDependencies": {
+    "grunt": "^0.4.5",
     "jest-cli": "^0.1.18",
-    "react-tools": "^0.11.1"
+    "react-tools": "^0.11.1",
+    "browserify": "^5.11.1",
+    "grunt-browserify": "^3.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.9.0",
+    "grunt-bower-install": "^1.6.0"
   }
 }
