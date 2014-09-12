@@ -41,6 +41,8 @@ But Seriously
 
 This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
 
+Note: The React.js setup is similiar to the [React tutorial](https://github.com/reactjs/react-tutorial), but this could be upgraded to instead use the CommonJS module instead.
+
 Contributors
 ----
 
