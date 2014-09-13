@@ -1,6 +1,6 @@
 {
-  "name": "xtuple-contacts",
-  "version": "0.0.0",
+  "name": "mullet",
+  "version": "0.0.9",
   "dependencies": {
     "bootstrap": "3.2.x",
     "jquery": "2.1.x"
