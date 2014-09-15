@@ -1,7 +1,7 @@
 var Hapi = require('hapi');
 
 // Create the Walmart Labs Hapi Server
-var PORT = process.env.PORT || 8000
+var PORT = process.env.PORT || 8000;
 var server = new Hapi.Server(PORT);
 
 server.route({
