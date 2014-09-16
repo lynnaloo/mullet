@@ -33,13 +33,14 @@
     "hapi": "^6.7.1",
     "react": "^0.11.1",
     "body-parser": "1.0.2",
-    "bower": "^1.3.9",
+    "bower": "^1.3.10",
     "grunt-cli": "^0.1.13",
     "grunt": "^0.4.5",
     "browserify": "^5.11.1",
     "grunt-browserify": "^3.0.1",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-react": "^0.9.0"
+    "grunt-react": "^0.9.0",
+    "grunt-jsxhint": "^0.3.0"
   },
   "devDependencies": {
     "jest-cli": "^0.1.18",

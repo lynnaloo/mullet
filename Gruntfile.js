@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     watch: {
       react: {
         files: ['src/react_components/*.jsx'],
-        tasks: ['browserify']
+        tasks: ['browserify', 'jshint']
       }
     },
     browserify: {
@@ -16,13 +16,15 @@ module.exports = function (grunt) {
         src: ['src/react_components/**/*.jsx'],
         dest: 'public/js/app.built.js'
       }
+    },
+    jshint: {
+      all: ['src/react_components/*.jsx']
     }
   });
 
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-jsxhint');
 
-  grunt.registerTask('default', [
-    'browserify'
-  ]);
+  grunt.registerTask('default', ['browserify']);
 };
