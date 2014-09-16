@@ -39,14 +39,14 @@ grunt watch
 Party On!
 ----
 
-Point your browser to `http://localhost:8000` to see the index page!
+Point your browser to `http://localhost:8000` to see the sample page!
 
 But Seriously
 ----
 
 This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
 
-Note: The React.js setup uses the React CommonJS module.
+To get started, edit the sample React component: `src/react_components/facebook.jsx`
 
 Contributors
 ----
