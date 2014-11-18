@@ -28,8 +28,7 @@ npm install mullet
 
 Start the Mullet Server:
 ```
-cd node_modules/mullet
-npm start
+npm start mullet
 
 ```
 To use Grunt compilation during development:
