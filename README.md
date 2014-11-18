@@ -11,16 +11,33 @@ Get the Party Started
 
 Install [Node.js](http://nodejs.org/)
 
-Setup the mullet stack:
+### Setup the Mullet stack for development:
 ```
 git clone https://github.com/lynnaloo/mullet
 cd mullet
 npm install
 ```
 
-OR
+Start the Mullet Server:
+```
+npm start
+```
 
-Install the mullet npm module:
+To use Grunt compilation during development:
+
+Install Grunt:
+```
+npm install -g grunt-cli
+```
+
+Watch the client folders for changes:
+```
+grunt watch
+```
+
+#### OR
+
+### Install the Mullet npm module:
 
 ```
 npm install mullet
@@ -29,11 +46,6 @@ npm install mullet
 Start the Mullet Server:
 ```
 npm start mullet
-
-```
-To use Grunt compilation during development:
-```
-grunt watch
 ```
 
 Party On!
