@@ -14,18 +14,12 @@
 
     render: function() {
       return (
-        <div>
-          <div class="container-fluid">
-            <div class="page-header">
-              <h1>Welcome to the Mullet Stack.</h1>
-            </div>
-            <p class="lead">Facebook in the front. Walmart in the back.</p>
-          </div>
+        <div className="container">
+          <h1 className="page-header">Welcome to the Mullet Stack.</h1>
+          <p className="lead">Facebook in the front. Walmart in the back.</p>
 
-          <div class="footer">
-            <div class="container">
-              <p class="text-muted">Created by <a href="http://github.com/lynnaloo/">@lynnaloo</a></p>
-            </div>
+          <div className="footer">
+            <p className="text-muted">Created by <a href="http://github.com/lynnaloo/">@lynnaloo</a></p>
           </div>
         </div>
       );
