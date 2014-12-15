@@ -30,7 +30,7 @@
   },
   "homepage": "http://www.mullet.io",
   "dependencies": {
-    "hapi": "^6.7.1",
+    "hapi": "^8.0.0",
     "react": "^0.11.1",
     "body-parser": "1.0.2",
     "bower": "^1.3.10",
