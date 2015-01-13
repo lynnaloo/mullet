@@ -65,7 +65,9 @@ To get started, edit the sample React component: `src/react_components/facebook.
 Contributors
 ----
 
-Mullet Stack was created on a Thursday night by Linda Nichols (@lynnaloo). Name inspiration by Ryan Brunsvold (@brunsvold) who probably wishes to not be credited on something called "The Mullet Stack."
+Mullet Stack was created on a Thursday night by [Linda Nichols](http://www.github.com/lynnaloo). Name inspiration by [Ryan Brunsvold](http://www.github.com/brunsvold) who probably wishes to not be credited on something called "The Mullet Stack."
+
+Mullet Cat Logo design by [Lookmai Rattana](http://www.github.com/cosmicmeow).
 
 Contact
 ----
