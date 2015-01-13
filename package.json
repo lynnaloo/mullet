@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node walmart.js",
-    "postinstall": "grunt default && bower install",
+    "postinstall": "grunt default && bower install --config.interactive=false",
     "ci": "npm install && npm test"
   },
   "engines": {
