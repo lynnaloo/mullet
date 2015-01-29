@@ -4,13 +4,13 @@
   module.exports = function (grunt) {
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
-      watch: {
+      'watch': {
         react: {
-          files: ['src/react_components/*.jsx'],
-          tasks: ['browserify', 'jshint']
+          files: ['Gruntfile.js', 'src/react_components/*.jsx'],
+          tasks: ['browserify', 'jshint-jsx']
         }
       },
-      browserify: {
+      'browserify': {
         options: {
           transform: [ require('grunt-react').browserify ]
         },
@@ -19,15 +19,19 @@
           dest: 'public/js/app.built.js'
         }
       },
-      jshint: {
-        all: ['src/react_components/*.jsx']
+      'jshint-jsx': {
+        all: ['src/react_components/**/*.jsx', 'src/react_components/**/*.js'],
+        options: {
+          convertJSX: true
+        }
       }
     });
 
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-jsxhint');
+    grunt.loadNpmTasks('grunt-contrib-jshint-jsx');
 
+    grunt.registerTask('jshint', ['jshint-jsx']);
     grunt.registerTask('default', ['browserify']);
   };
 
