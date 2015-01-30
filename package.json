@@ -30,17 +30,17 @@
   },
   "homepage": "http://www.mullet.io",
   "dependencies": {
-    "hapi": "^8.0.0",
-    "react": "^0.11.1",
     "body-parser": "1.0.2",
     "bower": "^1.3.12",
-    "grunt-cli": "^0.1.13",
+    "browserify": "^8.1.1",
     "grunt": "^0.4.5",
-    "browserify": "^5.11.1",
-    "grunt-browserify": "^3.0.1",
+    "grunt-browserify": "^3.3.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint-jsx": "^0.10.2",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-react": "^0.9.0",
-    "grunt-jsxhint": "^0.3.0"
+    "hapi": "^8.0.0",
+    "react": "^0.12.2"
   },
   "devDependencies": {
     "jest-cli": "^0.1.18",
