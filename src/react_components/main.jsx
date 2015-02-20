@@ -4,9 +4,9 @@
   'use strict';
 
   var React   = require('react'),
-    Facebook = require('./facebook.jsx');
+    Facebook = React.createFactory(require('./facebook.jsx'));
 
-  React.renderComponent(
+  React.render(
     <Facebook />,
     document.getElementById('facebook')
   );
