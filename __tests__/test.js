@@ -3,7 +3,20 @@
 jest.dontMock('../src/react_components/facebook.jsx');
 
 describe('test', function() {
- it('adds 1 + 2 to equal 3', function() {
-   expect(1 + 2).toBe(3);
- });
+  it('the widget actually renders', function() {
+    var React = require('react/addons');
+    var TestUtils = React.addons.TestUtils;
+    var Facebook = require('../src/react_components/facebook.jsx');
+    var title = "mullet";
+    var subtitle = "stuff";
+
+    // Render a checkbox with label in the document
+    var facebook = TestUtils.renderIntoDocument(
+      <Facebook title={title} subtitle={subtitle}/>
+    );
+
+    // Verify that it's Off by default
+    var titleField = TestUtils.findRenderedDOMComponentWithClass(facebook, 'title');
+    expect(titleField.getDOMNode().textContent).toEqual(title);
+  });
 });

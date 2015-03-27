@@ -7,7 +7,9 @@
     Facebook = React.createFactory(require('./facebook.jsx'));
 
   React.render(
-    <Facebook />,
+    <Facebook
+      title="Welcome to the Mullet Stack."
+      subtitle="Facebook in the front. Walmart in the back."/>,
     document.getElementById('facebook')
   );
 

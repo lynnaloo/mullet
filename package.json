@@ -39,11 +39,15 @@
     "grunt-contrib-jshint-jsx": "^0.10.2",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-react": "^0.9.0",
-    "hapi": "^8.0.0",
-    "react": "^0.12.2"
+    "react": "^0.13.1",
+    "hapi": "^8.4.0",
+    "react-tools": "^0.13.1"
   },
   "devDependencies": {
-    "jest-cli": "^0.1.18",
-    "react-tools": "^0.11.1"
+    "jest-cli": "^0.4.0"
+  },
+  "jest": {
+    "scriptPreprocessor": "./preprocessor.js",
+    "unmockedModulePathPatterns": ["./node_modules/react"]
   }
 }
