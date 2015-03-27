@@ -1,6 +1,6 @@
 {
   "name": "mullet",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Mullet Stack: Facebook in the front. Walmart in the back. (React.js/Hapi)",
   "main": "walmart.js",
   "scripts": {
@@ -48,6 +48,8 @@
   },
   "jest": {
     "scriptPreprocessor": "./preprocessor.js",
-    "unmockedModulePathPatterns": ["./node_modules/react"]
+    "unmockedModulePathPatterns": [
+      "./node_modules/react"
+    ]
   }
 }
