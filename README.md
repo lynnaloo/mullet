@@ -6,7 +6,7 @@
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
-[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet)[![Build Status](https://travis-ci.org/lynnaloo/mullet.svg)](https://travis-ci.org/lynnaloo/mullet.svg)
+[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet)[![Build Status](https://travis-ci.org/lynnaloo/mullet.svg)](https://travis-ci.org/lynnaloo/mullet)
 
 Get the Party Started
 ----
