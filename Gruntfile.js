@@ -6,32 +6,29 @@
       pkg: grunt.file.readJSON('package.json'),
       'watch': {
         react: {
-          files: ['Gruntfile.js', 'src/react_components/*.jsx'],
-          tasks: ['browserify', 'jshint-jsx']
+          files: ['Gruntfile.js', 'src/react_components/*.js'],
+          tasks: ['browserify']
         }
       },
       'browserify': {
         options: {
-          transform: [ require('grunt-react').browserify ]
+          transform: [
+            ['babelify', {
+              loose: 'all'
+            }]
+          ]
         },
         client: {
-          src: ['src/react_components/**/*.jsx'],
+          src: ['src/react_components/**/*.js'],
           dest: 'public/js/app.built.js'
-        }
-      },
-      'jshint-jsx': {
-        all: ['src/react_components/**/*.jsx', 'src/react_components/**/*.js'],
-        options: {
-          convertJSX: true
         }
       }
     });
 
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-jshint-jsx');
+    grunt.loadNpmTasks('grunt-contrib-eslint');
 
-    grunt.registerTask('jshint', ['jshint-jsx']);
     grunt.registerTask('default', ['browserify']);
   };
 
