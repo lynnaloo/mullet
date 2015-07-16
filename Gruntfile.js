@@ -6,8 +6,8 @@
       pkg: grunt.file.readJSON('package.json'),
       'watch': {
         react: {
-          files: ['Gruntfile.js', 'src/react_components/*.js'],
-          tasks: ['browserify']
+          files: ['Gruntfile.js', 'src/react_components/**/*.js'],
+          tasks: ['browserify', 'eslint']
         }
       },
       'browserify': {
@@ -22,6 +22,9 @@
           src: ['src/react_components/**/*.js'],
           dest: 'public/js/app.built.js'
         }
+      },
+      'eslint': {
+        src: ['src/react_components/main.js']
       }
     });
 
