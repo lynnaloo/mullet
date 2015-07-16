@@ -30,7 +30,7 @@
 
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-eslint');
+    grunt.loadNpmTasks('gruntify-eslint');
 
     grunt.registerTask('default', ['browserify']);
   };
