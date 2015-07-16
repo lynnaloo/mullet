@@ -1,12 +1,14 @@
 # The Mullet Stack
 
+[![Join the chat at https://gitter.im/lynnaloo/mullet](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lynnaloo/mullet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <img src="https://cloud.githubusercontent.com/assets/1610195/5716009/cf500292-9ab1-11e4-84a2-f93f9766afa9.png" align="center" width="200">
 
 [Facebook](http://facebook.github.io/react/) in the front. [Walmart](http://walmartlabs.github.io/hapi/) in the back.
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
-[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet)[![Build Status](https://travis-ci.org/lynnaloo/mullet.svg)](https://travis-ci.org/lynnaloo/mullet.svg)
+[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet)[![Build Status](https://travis-ci.org/lynnaloo/mullet.svg)](https://travis-ci.org/lynnaloo/mullet)
 
 Get the Party Started
 ----
