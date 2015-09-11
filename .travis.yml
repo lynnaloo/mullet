@@ -3,6 +3,3 @@ node_js:
   - "0.12"
 
 sudo: false
-
-script:
-  - "npm run-script ci"
