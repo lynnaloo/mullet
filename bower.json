@@ -1,8 +1,0 @@
-{
-  "name": "mullet",
-  "version": "0.0.13",
-  "dependencies": {
-    "bootstrap": "3.2.x",
-    "jquery": "2.1.x"
-  }
-}
