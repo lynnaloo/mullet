@@ -9,7 +9,7 @@
     "lint": "eslint src/react_components/main.js",
     "watch": "npm-watch",
     "start": "node walmart.js",
-    "postinstall": "cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run browserify"
+    "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run browserify"
   },
   "engines": {
     "node": "^0.10"
