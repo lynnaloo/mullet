@@ -64,6 +64,8 @@ Mullet Stack was created on a Thursday night by [Linda Nichols](http://www.githu
 
 Mullet Cat Logo design by [Lookmai Rattana](http://www.github.com/cosmicmeow).
 
+Special thanks to all of the people that have taken their time to submit [pull requests](https://github.com/lynnaloo/mullet/graphs/contributors) to make this project better!
+
 Contact
 ----
 
