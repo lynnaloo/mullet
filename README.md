@@ -27,16 +27,9 @@ Start the Mullet Server:
 npm start
 ```
 
-To use Grunt compilation during development:
-
-Install Grunt:
+Watch the client folders for changes during development:
 ```
-npm install -g grunt-cli
-```
-
-Watch the client folders for changes:
-```
-grunt watch
+npm run watch
 ```
 
 #### OR
