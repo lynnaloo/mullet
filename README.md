@@ -55,7 +55,7 @@ But Seriously
 
 This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
 
-To get started, edit the sample React component: `src/react_components/facebook.jsx`
+To get started, edit the sample React component: `src/react_components/facebook.js`
 
 Contributors
 ----
