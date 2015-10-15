@@ -43,7 +43,6 @@ var Facebook = React.createClass({
       <div style={Styles.flexContainer}>
         <header style={Styles.header}>
           <img
-            className="img-responsive"
             style={Styles.image}
             src="/images/mullet_600.png"
             width="200"
