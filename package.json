@@ -39,10 +39,12 @@
     "bootstrap": "^3.3.5",
     "browserify": "^11.2.0",
     "hapi": "^9.3.1",
+    "hapi-react-views": "^3.1.3",
     "inert": "^3.1.0",
     "jquery": "^2.1.4",
     "npm-watch": "^0.0.1",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "vision": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^1.6.0",
