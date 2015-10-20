@@ -1,7 +1,6 @@
 'use strict';
-var React = require('react');
-var Layout = require('./layout/default.jsx');
 
+var React = require('react');
 
 var Styles = {
   flexContainer: {
@@ -29,11 +28,9 @@ var Styles = {
 };
 
 var Facebook = React.createClass({
+
   render: function() {
     return (
-      <Layout
-      title="The Mullet Stack"
-      >
       <div style={Styles.flexContainer}>
         <header style={Styles.header}>
           <img
@@ -48,7 +45,6 @@ var Facebook = React.createClass({
           </p>
         </header>
       </div>
-      </Layout>
     );
   }
 });

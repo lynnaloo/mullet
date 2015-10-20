@@ -1,5 +1,10 @@
 var React = require('react/addons');
 
+var Styles = {
+  mainContainer: {
+    height: '100%'
+  }
+};
 var Component = React.createClass({
   render: function(){
     return (
@@ -15,7 +20,11 @@ var Component = React.createClass({
         <link rel="stylesheet" href="css/facebook.css" />
       </head>
       <body>
-         {this.props.children}
+         <div id="AppMount" style={Styles.mainContainer} dangerouslySetInnerHTML={{ __html: this.props.children }}></div>
+         <script id="AppState"
+          dangerouslySetInnerHTML={{ __html: this.props.state }}>
+         </script>
+         <script src="js/isomorph-app.built.js"></script>
          <script src="js/jquery.min.js"></script>
          <script src="js/bootstrap.min.js"></script>
       </body>

@@ -1,28 +1,45 @@
 var Hapi = require('hapi');
 var Inert = require('inert');
 var Vision = require('vision');
+var HapiReactViews = require('hapi-react-views');
 
 // Create the Walmart Labs Hapi Server
 var PORT = process.env.PORT || 8000;
 var server = new Hapi.Server();
 
-server.register(Vision, function() {
+server.connection({ port: PORT });
+server.register([Inert, Vision], function() {
   server.views({
     engines: {
-      jsx: require('hapi-react-views')
+      jsx: HapiReactViews
     },
     relativeTo: __dirname,
     path: './src/react_components/serverside'
   });
-});
-server.register(Inert, function() {
-  server.connection({ port: PORT });
 
   server.route({
     method: 'get',
     path: '/serverside',
     handler: function(request, reply) {
-      reply.view('facebook');
+      var ctx = {
+        fruits: [
+          'apple'
+        ]
+      };
+      var renderOptions = {
+        runtimeOptions: {
+          renderMethod: 'renderToString'
+        }
+      };
+      server.render('facebook', ctx, renderOptions, function(err, appOutput){
+        var htmlCtx = {
+          children: appOutput,
+          state: 'window.state = ' + JSON.stringify(ctx) + ';'
+        };
+        server.render('layout/default', htmlCtx, renderOptions, function(err, htmlOutput){
+          reply(htmlOutput);
+        });
+      });
     }
   });
   server.route({
