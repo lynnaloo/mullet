@@ -1,4 +1,4 @@
-// __tests__/test.js
+// __tests__/facebook.js
 
 jest.dontMock('../src/react_components/facebook');
 

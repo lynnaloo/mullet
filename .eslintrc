@@ -1,22 +1,32 @@
+extends: "eslint:recommended"
+
 env:
   node: true
   browser: true
 
 ecmaFeatures:
   jsx: true
+  blockBindings: true
+  classes: true
+  modules: true
 
 plugins:
   - react
 
 rules:
-  camelcase: 2
+  no-console: 0
+  camelcase: 1
+  new-cap: [0, { "capIsNew": true }]
   eol-last: 2
   quotes: [2, "single", "avoid-escape"]
   no-mixed-spaces-and-tabs: 2
+  no-extra-semi: 2
+  no-else-return: 1
   no-trailing-spaces: 2
-  no-underscore-dangle: 0
-  no-unused-vars: [1, { "args": "none" }]
-  vars-on-top: 1
+  no-unused-vars: [1, {"args": "none"}]
+  semi: 2
+  semi-spacing: 2
+  brace-style: [2, "1tbs", { "allowSingleLine": true }]
   react/jsx-boolean-value: 1
   react/jsx-quotes: [2, "double", "avoid-escape"]
   react/jsx-no-undef: 1
