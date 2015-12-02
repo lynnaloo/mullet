@@ -50,6 +50,10 @@ Party On!
 
 Point your browser to `http://localhost:8000` to see the sample page!
 
+#### But what about server-side rendering? 
+
+Checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside) by [@leftieFriele](http://www.github.com/leftieFriele)
+
 But Seriously
 ----
 
