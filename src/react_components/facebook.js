@@ -2,6 +2,31 @@
 
 var React = require('react');
 
+var Styles = {
+  flexContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%'
+  },
+  header: {
+    textAlign: 'center'
+  },
+  image: {
+    display: 'block',
+    margin: '0 auto 20px'
+  },
+  title: {
+    display: 'block',
+    fontSize: '2em',
+    fontWeight: 700
+  },
+  subtitle: {
+    fontSize: '1em',
+    fontWeight: 300
+  }
+};
+
 var Facebook = React.createClass({
   propTypes: {
     subtitle: React.PropTypes.string,
@@ -15,24 +40,18 @@ var Facebook = React.createClass({
 
   render: function() {
     return (
-      <div className="container">
-        <header>
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <img
-                  className="img-responsive"
-                  src="/images/mullet_600.png"
-                  width="200"
-                  alt="Mullet"/>
-                <p className="title">{this.props.title}</p>
-                <p className="subtitle">{this.props.subtitle}</p>
-                <p className="subtitle">
-                  Created by <a href="http://github.com/lynnaloo/">@lynnaloo</a>
-                </p>
-              </div>
-            </div>
-          </div>
+      <div style={Styles.flexContainer}>
+        <header style={Styles.header}>
+          <img
+            style={Styles.image}
+            src="/images/mullet_600.png"
+            width="200"
+            alt="Mullet"/>
+          <p style={Styles.title}>{this.props.title}</p>
+          <p style={Styles.subtitle}>{this.props.subtitle}</p>
+          <p style={Styles.subtitle}>
+            Created by <a href="http://github.com/lynnaloo/">@lynnaloo</a>
+          </p>
         </header>
       </div>
     );
