@@ -1,8 +1,6 @@
-'use strict';
+import React, { Component } from 'react';
 
-var React = require('react');
-
-var Styles = {
+const Styles = {
   flexContainer: {
     display: 'flex',
     justifyContent: 'center',
@@ -27,18 +25,9 @@ var Styles = {
   }
 };
 
-var Facebook = React.createClass({
-  propTypes: {
-    subtitle: React.PropTypes.string,
-    title: React.PropTypes.string
-  },
-  getInitialState: function () {
-    return {};
-  },
-  componentDidMount: function () {},
-  componentWillUnmount: function () {},
+export default class Facebook extends Component {
 
-  render: function() {
+  render() {
     return (
       <div style={Styles.flexContainer}>
         <header style={Styles.header}>
@@ -56,6 +45,10 @@ var Facebook = React.createClass({
       </div>
     );
   }
-});
 
-module.exports = Facebook;
+};
+
+Facebook.propTypes = {
+  subtitle: React.PropTypes.string,
+  title: React.PropTypes.string
+};
