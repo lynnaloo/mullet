@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack",
     "test": "jest && lab -v -l",
-    "lint": "eslint src/react_components/main.js",
+    "lint": "eslint src/components/main.js",
     "watch": "npm-watch",
     "start": "node walmart.js",
     "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run webpack"
@@ -46,19 +46,19 @@
     "inert": "^3.2.0",
     "jquery": "^2.1.4",
     "npm-watch": "^0.0.1",
-    "react": "^0.13.3",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
     "vision": "^3.0.0",
     "webpack": "^1.12.9"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-stage-0": "^6.3.13",
     "code": "^1.5.0",
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "jest-cli": "^0.4.19",
     "lab": "^5.15.2",
-    "webpack-hot-middleware": "^2.6.0"
   },
   "jest": {
     "unmockedModulePathPatterns": [
