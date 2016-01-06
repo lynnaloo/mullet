@@ -4,7 +4,12 @@
   "description": "Mullet Stack: Facebook in the front. Walmart in the back. (React.js/Hapi)",
   "main": "walmart.js",
   "scripts": {
-    "start": "webpack && node walmart.js"
+    "webpack": "webpack",
+    "test": "jest && lab -v -l",
+    "lint": "eslint src/react_components/main.js",
+    "watch": "npm-watch",
+    "start": "node walmart.js",
+    "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run webpack"
   },
   "engines": {
     "node": "^0.12"
@@ -27,6 +32,14 @@
   },
   "homepage": "http://www.mullet.io",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "babel": "^5.8.23",
+    "babel-core": "^6.3.26",
+    "babel-jest": "^5.3.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+>>>>>>> webpack
     "babel-preset-react": "^6.3.13",
     "blipp": "^2.3.0",
     "body-parser": "^1.14.1",
@@ -36,11 +49,9 @@
     "inert": "^3.2.0",
     "jquery": "^2.1.4",
     "npm-watch": "^0.0.1",
-    "react": "^0.14.0",
-    "react-dom": "^0.14.3",
+    "react": "^0.13.3",
     "vision": "^3.0.0",
-    "webpack": "^1.12.9",
-    "webpack-hot-middleware": "^2.6.0"
+    "webpack": "^1.12.9"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
