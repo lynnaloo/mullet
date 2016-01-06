@@ -46,16 +46,19 @@
     "inert": "^3.2.0",
     "jquery": "^2.1.4",
     "npm-watch": "^0.0.1",
-    "react": "^0.13.3",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
     "vision": "^3.0.0",
     "webpack": "^1.12.9"
   },
   "devDependencies": {
+    "code": "^1.5.0",
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "jest-cli": "^0.4.19",
-    "code": "^1.5.0",
-    "lab": "^5.15.2"
+    "lab": "^5.15.2",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
   },
   "jest": {
     "unmockedModulePathPatterns": [
