@@ -28,6 +28,11 @@ const Styles = {
 export default class Facebook extends Component {
 
   render() {
+
+    let backgroundColor = {
+     color: this.props.color
+    };
+
     return (
       <div style={Styles.flexContainer}>
         <header style={Styles.header}>
@@ -38,6 +43,10 @@ export default class Facebook extends Component {
             alt="Mullet"/>
           <p style={Styles.title}>{this.props.title}</p>
           <p style={Styles.subtitle}>{this.props.subtitle}</p>
+          <div style={backgroundColor}>
+            <button onClick={() => this.handleClick('red')}>Click Me to see Redux turn everything Red!</button>
+            <button onClick={() => this.handleClick('blue')}>If you Click Me, Redux turns everything Blue.</button>
+          </div>
           <p style={Styles.subtitle}>
             Created by <a href="http://github.com/lynnaloo/">@lynnaloo</a>
           </p>
@@ -46,9 +55,15 @@ export default class Facebook extends Component {
     );
   }
 
+  handleClick(color) {
+    console.log('click');
+    this.props.clickColor(color);
+  } 
+
 };
 
 Facebook.propTypes = {
   subtitle: React.PropTypes.string,
-  title: React.PropTypes.string
+  title: React.PropTypes.string,
+  clickColor: React.PropTypes.func
 };

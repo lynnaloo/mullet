@@ -1,19 +1,17 @@
 import React, { Component} from 'react';
-import ReactDOM from 'react-dom';
-import Facebook from './facebook';
+import { render } from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import Container from './Container';
+import appReducer  from '../reducers/appReducer'
+import { clickColor } from '../actions/actions' 
 
-export default class Main extends Component {
-  render() {
-    return (
-      <Facebook
-        title="Welcome to the Mullet Stack."
-        subtitle="Facebook in the front. Walmart in the back."
-      />
-    );
-  }
-};
+let store = createStore(appReducer);
 
-ReactDOM.render(
-  <Main />,
-  document.getElementById('facebook')
+let rootElement = document.getElementById('facebook');
+render(
+  <Provider store={store}>
+    <Container />
+  </Provider>,
+  rootElement
 );
