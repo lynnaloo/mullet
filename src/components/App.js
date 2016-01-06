@@ -1,15 +1,15 @@
 import React, { Component} from 'react';
 import { connect } from 'react-redux';
 import Facebook from './facebook';
-import { clickColor } from '../actions/actions' 
+import { changeColor } from '../actions/actions' 
 
 function select(state) {
   return {
-    currentColor: state.switchColor
+    currentColor: state.colorTypes
   }
 };
 
-export default class Container extends Component {
+export default class App extends Component {
   render() {
     const { dispatch, currentColor } = this.props;
     return (
@@ -17,10 +17,10 @@ export default class Container extends Component {
         title="Welcome to the Mullet Stack."
         subtitle="Facebook in the front. Walmart in the back."
         color={currentColor}
-        clickColor={color => dispatch(clickColor(color))}
+        changeColor={color => dispatch(changeColor(color))}
       />
     );
   }
 };
 
-export default connect(select)(Container)
+export default connect(select)(App)

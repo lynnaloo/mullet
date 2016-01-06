@@ -56,7 +56,7 @@ export default class Facebook extends Component {
   }
 
   handleClick(color) {
-    this.props.clickColor(color);
+    this.props.changeColor(color);
   } 
 
 };
@@ -64,5 +64,5 @@ export default class Facebook extends Component {
 Facebook.propTypes = {
   subtitle: React.PropTypes.string,
   title: React.PropTypes.string,
-  clickColor: React.PropTypes.func
+  changeColor: React.PropTypes.func
 };

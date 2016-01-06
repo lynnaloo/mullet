@@ -6,7 +6,7 @@
   "scripts": {
     "webpack": "webpack",
     "test": "jest && lab -v -l",
-    "lint": "eslint src/react_components/main.js",
+    "lint": "eslint src/components/main.js",
     "watch": "npm-watch",
     "start": "node walmart.js",
     "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run webpack"
@@ -76,13 +76,5 @@
       "json",
       "es6"
     ]
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
-  },
-  "watch": {
-    "browserify": "src/react_components/**/*.js"
   }
 }

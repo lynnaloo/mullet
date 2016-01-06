@@ -1,8 +1,8 @@
-export const CLICK_COLOR = 'CLICK_COLOR';
+export const CHANGE_COLOR = 'CHANGE_COLOR';
 
-export function clickColor(color) {
+export function changeColor(color) {
   return {
-    type: CLICK_COLOR,
+    type: CHANGE_COLOR,
     color
   };
 }
