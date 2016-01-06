@@ -56,7 +56,6 @@ export default class Facebook extends Component {
   }
 
   handleClick(color) {
-    console.log('click');
     this.props.clickColor(color);
   } 
 
