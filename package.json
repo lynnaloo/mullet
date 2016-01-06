@@ -57,7 +57,8 @@
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "jest-cli": "^0.4.19",
-    "lab": "^5.15.2"
+    "lab": "^5.15.2",
+    "webpack-hot-middleware": "^2.6.0"
   },
   "jest": {
     "unmockedModulePathPatterns": [
