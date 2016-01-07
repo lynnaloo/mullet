@@ -51,7 +51,7 @@
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.5.1",
-    "jest-cli": "^0.4.19",
+    "jest-cli": "^0.8.2",
     "code": "^2.1.0",
     "lab": "^6.0.0"
   },
