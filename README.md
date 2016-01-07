@@ -13,7 +13,7 @@ All sitting on top of [Node.js](http://nodejs.org/).
 Get the Party Started
 ----
 
-Install [Node.js](http://nodejs.org/)
+Install [Node.js](http://nodejs.org/) (Mullet requires at least Node 4)
 
 ### Setup the Mullet stack for development:
 ```
@@ -57,7 +57,7 @@ Checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside)
 But Seriously
 ----
 
-This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
+This setup is a decent starting place to play around with React and Hapi.
 
 To get started, edit the sample React component: `src/react_components/facebook.js`
 
