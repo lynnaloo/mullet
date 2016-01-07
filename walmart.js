@@ -4,6 +4,16 @@ var pkg = require('./package.json');
 // Create the Walmart Labs Hapi Server
 var PORT = process.env.PORT || 8000;
 var server = new Hapi.Server();
+var goodOptions = {
+  opsInterval: 1000,
+  reporters: [{
+    reporter: require('good-console'),
+    events: {
+      log: '*',
+      response: '*'
+    }
+  }]
+};
 
 // Useful Hapi plugins
 // To generate documentation, use the hapi-swagger plugin
@@ -11,7 +21,10 @@ var plugins = [
   require('h2o2'),
   require('inert'),
   require('vision'),
-  require('blipp')
+  {
+    register: require('good'),
+    options: goodOptions
+  },
 ];
 
 server.register(plugins, function() {
