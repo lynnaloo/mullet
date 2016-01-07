@@ -12,7 +12,7 @@
     "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run browserify"
   },
   "engines": {
-    "node": "^0.12"
+    "node": "4"
   },
   "repository": {
     "type": "git",
@@ -39,20 +39,22 @@
     "body-parser": "^1.14.1",
     "bootstrap": "^3.3.5",
     "browserify": "^11.2.0",
-    "h2o2": "^4.0.2",
-    "hapi": "^9.3.1",
+    "good": "^6.4.0",
+    "good-console": "^5.2.0",
+    "h2o2": "^5.0.0",
+    "hapi": "^11.1.4",
     "inert": "^3.2.0",
     "jquery": "^2.1.4",
     "npm-watch": "^0.0.1",
     "react": "^0.13.3",
-    "vision": "^3.0.0"
+    "vision": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^1.6.0",
+    "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.5.1",
     "jest-cli": "^0.4.19",
-    "code": "^1.5.0",
-    "lab": "^5.15.2"
+    "code": "^2.1.0",
+    "lab": "^6.0.0"
   },
   "jest": {
     "unmockedModulePathPatterns": [
