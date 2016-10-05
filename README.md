@@ -1,5 +1,9 @@
 # The Mullet Stack
 
+
+__Note: The Mullet Stack is getting a little cut and blow-dry during #hacktoberfest. We'll be back soon with some much-needed upgrades.__
+
+
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
 <img src="https://cloud.githubusercontent.com/assets/1610195/5716009/cf500292-9ab1-11e4-84a2-f93f9766afa9.png" align="center" width="200">
