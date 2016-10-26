@@ -1,7 +1,7 @@
 # The Mullet Stack
 
 
-__Note: The Mullet Stack is getting a little cut and blow-dry during #hacktoberfest. We'll be back soon with some much-needed upgrades.__
+## Note: The Mullet Stack is getting a little cut and blow-dry during #hacktoberfest. We'll be back soon with some much-needed upgrades and resolved issued. ##
 
 
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
