@@ -1,12 +1,16 @@
-var Hapi = require('hapi');
-var pkg = require('./package.json');
+'use strict';
 
-// Create the Walmart Labs Hapi Server
-var PORT = process.env.PORT || 8000;
-var server = new Hapi.Server();
+const Hapi = require('hapi');
+const _ = require('lodash');
+const pkg = require('./package.json');
 
-// Useful Hapi plugins
-// To generate documentation, use the hapi-swagger plugin
+// create the [formerly] Walmart Labs Hapi Server
+const PORT = process.env.PORT || 8000;
+const server = new Hapi.Server();
+server.connection({ port: PORT });
+
+// useful Hapi plugins
+// to generate API documentation, use the hapi-swagger plugin
 var plugins = [
   require('h2o2'),
   require('inert'),
@@ -14,10 +18,15 @@ var plugins = [
   require('blipp')
 ];
 
-server.register(plugins, function() {
-  server.connection({ port: PORT });
+server.register(plugins, (err) => {
 
-  // Serve up all static content in public folder
+  if (err) {
+    throw err;
+  }
+
+  console.log('=> Registered plugins:', { plugins: _.keysIn(server.registrations).join(', ') });
+
+  // serve up all static content in public folder
   server.route({
     method: 'GET',
     path: '/{path*}',
@@ -30,11 +39,11 @@ server.register(plugins, function() {
     }
   });
 
-  // Serve up some sample JSON data
+  // serve up some sample JSON data
   server.route({
     method: 'GET',
     path: '/data',
-    handler: function (request, reply) {
+    handler: (request, reply) => {
       reply({
         name: pkg.name,
         version: pkg.version,
@@ -43,11 +52,13 @@ server.register(plugins, function() {
     }
   });
 
-  // Start your Mullet Server
-  server.start(function () {
-    console.log('The Mullet Stack is running on port:', PORT);
+  server.start((err) => {
+    if (err) {
+        throw err;
+    }
+    console.log(`=> Mullet Stack running at: ${server.info.uri}`);
   });
 });
 
-// For server inject in Lab tests
+// for server inject in Lab tests
 module.exports = server;

@@ -1,9 +1,8 @@
-'use strict';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Facebook from './Facebook';
 
-var React = require('react');
-var Facebook = require('./facebook');
-
-React.render(
+ReactDOM.render(
   <Facebook
     title="Welcome to the Mullet Stack."
     subtitle="Facebook in the front. Walmart in the back."
