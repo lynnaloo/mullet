@@ -12,6 +12,7 @@
     "lint": "eslint . --ext .js",
     "watch": "npm-watch",
     "start": "node walmart.js",
+    "format": "prettier --single-quote --write *.js src/components/*.js test/*.js",
     "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run webpack"
   },
   "engines": {
