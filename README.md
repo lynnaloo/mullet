@@ -1,9 +1,5 @@
 # The Mullet Stack
 
-
-## Note: The Mullet Stack is getting a little cut and blow-dry during #hacktoberfest. We'll be back soon with some much-needed upgrades and resolved issued. ##
-
-
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
 <img src="https://cloud.githubusercontent.com/assets/1610195/5716009/cf500292-9ab1-11e4-84a2-f93f9766afa9.png" align="center" width="200">
@@ -61,9 +57,9 @@ Checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside)
 But Seriously
 ----
 
-This setup is a decent starting place to play around with Node.js, Hapi, and React.js.
+This setup is a decent starting place to play around with Node, Hapi, and React.
 
-To get started, edit the sample React component: `src/react_components/facebook.js`
+To get started, edit the sample React component: `src/components/facebook.js`
 
 Contributors
 ----
@@ -71,6 +67,8 @@ Contributors
 Mullet Stack was created on a Thursday night by [Linda Nichols](http://www.github.com/lynnaloo). Name inspiration by [Ryan Brunsvold](http://www.github.com/brunsvold) who probably wishes to not be credited on something called "The Mullet Stack."
 
 Mullet Cat Logo design by [Lookmai Rattana](http://www.github.com/cosmicmeow).
+
+[Weyland](http://www.github.com/weyj4) moved us on up from Gulp/Browserify to Webpack. 
 
 Special thanks to all of the people that have taken their time to submit [pull requests](https://github.com/lynnaloo/mullet/graphs/contributors) to make this project better!
 
