@@ -2236,9 +2236,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-eta@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/eslint-config-eta/-/eslint-config-eta-0.0.7.tgz#242d702835f68ca42681537a30c30d5c5d6ae84f"
+eslint-config-eta@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-eta/-/eslint-config-eta-0.0.9.tgz#5ffda9daa50575ddc8c9d61580c36e51f7b93cc0"
 
 eslint-config-hapi@10.x.x:
   version "10.0.0"

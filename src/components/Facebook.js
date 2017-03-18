@@ -26,7 +26,7 @@ const Styles = {
 };
 
 export default class Facebook extends Component {
- 
+
   constructor(props) {
     super(props);
   }
@@ -39,7 +39,8 @@ export default class Facebook extends Component {
             style={Styles.image}
             src="/images/mullet_600.png"
             width="200"
-            alt="Mullet"/>
+            alt="Mullet"
+          />
           <p style={Styles.title}>{this.props.title}</p>
           <p style={Styles.subtitle}>{this.props.subtitle}</p>
           <p style={Styles.subtitle}>
@@ -49,7 +50,7 @@ export default class Facebook extends Component {
       </div>
     );
   }
-};
+}
 
 Facebook.propTypes = {
   subtitle: React.PropTypes.string,

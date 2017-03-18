@@ -11,7 +11,7 @@ server.connection({ port: PORT });
 
 // useful Hapi plugins
 // to generate API documentation, use the hapi-swagger plugin
-var plugins = [
+const plugins = [
   require('h2o2'),
   require('inert'),
   require('vision'),

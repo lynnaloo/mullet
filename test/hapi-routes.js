@@ -8,7 +8,7 @@ const server = require('../walmart');
 lab.experiment('General Endpoint Tests', () => {
 
   lab.test('GET / (default test)', (done) => {
-    var options = {
+    const options = {
         method: 'GET',
         url: '/'
     };
@@ -19,7 +19,7 @@ lab.experiment('General Endpoint Tests', () => {
   });
 
   lab.test('GET /images/mullet_600.png', (done) => {
-    var options = {
+    const options = {
         method: 'GET',
         url: '/images/mullet_600.png'
     };
@@ -30,7 +30,7 @@ lab.experiment('General Endpoint Tests', () => {
   });
 
   lab.test('GET /data', (done) => {
-    var options = {
+    const options = {
         method: 'GET',
         url: '/data'
     };
