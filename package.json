@@ -56,13 +56,14 @@
   },
   "devDependencies": {
     "code": "^4.0.0",
+    "enzyme": "^2.7.1",
     "eslint": "^3.18.0",
     "eslint-config-eta": "^0.0.7",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-react": "^6.10.0",
     "jest-cli": "^19.0.2",
     "lab": "^13.0.1",
-    "enzyme": "^2.7.1",
+    "react-addons-test-utils": "^15.4.2",
     "react-test-renderer": "^15.4.2"
   }
 }

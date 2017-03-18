@@ -6,16 +6,15 @@ describe('test Facebook component', () => {
   const title = 'mullet';
   const subtitle = 'stuff';
 
-  it('should render correctly', () => {
+  it('should render properly', () => {
     const facebook = shallow(<Facebook title={title} subtitle={subtitle} />);
-    //expect(facebook.prop('title')).toEqual('mullet');
-    //expect(facebook.prop('subtitle')).toEqual('stuff');
-
-    //const testTitle = facebook.contains(<p style='mullet'>mullet</p>);
-    //expect(testTitle).toBe(true);
+    expect(facebook.exists());
   });
 
-  // it('check subtitle', function() {
-  //   expect(mount(<Facebook title={title} subtitle={subtitle}/>).find('title').text().toBe('mullet'));
-  // });
+  it('test props', () => {
+    const facebook = mount(<Facebook title={title} subtitle={subtitle} />);
+    expect(facebook.prop('title')).toEqual('mullet');
+    expect(facebook.prop('subtitle')).toEqual('stuff');
+  });
+
 });
