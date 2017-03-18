@@ -18,13 +18,14 @@ const plugins = [
   require('blipp')
 ];
 
-server.register(plugins, (err) => {
-
+server.register(plugins, err => {
   if (err) {
     throw err;
   }
 
-  console.log('=> Registered plugins:', { plugins: _.keysIn(server.registrations).join(', ') });
+  console.log('=> Registered plugins:', {
+    plugins: _.keysIn(server.registrations).join(', ')
+  });
 
   // serve up all static content in public folder
   server.route({
@@ -52,9 +53,9 @@ server.register(plugins, (err) => {
     }
   });
 
-  server.start((err) => {
+  server.start(err => {
     if (err) {
-        throw err;
+      throw err;
     }
     console.log(`=> Mullet Stack running at: ${server.info.uri}`);
   });
