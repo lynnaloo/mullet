@@ -3,6 +3,9 @@
   "version": "0.0.20",
   "description": "Mullet Stack: Facebook in the front. Walmart in the back. (React.js/Hapi)",
   "main": "walmart.js",
+  "watch": {
+    "test": "{src,test}/*.js"
+  },
   "scripts": {
     "webpack": "webpack",
     "test": "jest && lab -v -l",
