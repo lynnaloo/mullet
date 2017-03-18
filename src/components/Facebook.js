@@ -26,7 +26,6 @@ const Styles = {
 };
 
 export default class Facebook extends Component {
-
   constructor(props) {
     super(props);
   }

@@ -12,6 +12,7 @@
     "lint": "eslint . --ext .js",
     "watch": "npm-watch",
     "start": "node walmart.js",
+    "format": "prettier --single-quote --write *.js src/components/*.js test/*.js",
     "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run webpack"
   },
   "engines": {
@@ -66,6 +67,7 @@
     "eslint-plugin-react": "^6.10.0",
     "jest-cli": "^19.0.2",
     "lab": "^13.0.1",
+    "prettier": "^0.22.0",
     "react-addons-test-utils": "^15.4.2",
     "react-test-renderer": "^15.4.2"
   }

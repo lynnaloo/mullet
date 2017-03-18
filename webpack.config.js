@@ -1,10 +1,7 @@
 const path = require('path');
-//const webpack = require('webpack');
 
 module.exports = {
-  entry: [
-    './src/components/Main.js'
-  ],
+  entry: ['./src/components/Main.js'],
   output: {
     path: path.join(__dirname, 'public/js'),
     filename: 'app.built.js'
@@ -17,7 +14,8 @@ module.exports = {
         exclude: /node_modules/,
         query: {
           presets: ['es2015', 'react']
-        } }
+        }
+      }
     ]
   }
 };

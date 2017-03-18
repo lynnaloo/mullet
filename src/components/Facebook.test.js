@@ -16,5 +16,4 @@ describe('test Facebook component', () => {
     expect(facebook.prop('title')).toEqual('mullet');
     expect(facebook.prop('subtitle')).toEqual('stuff');
   });
-
 });
