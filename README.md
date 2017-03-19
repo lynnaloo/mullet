@@ -55,14 +55,22 @@ But Seriously
 
 This setup is a decent starting place to play around with Node, Hapi, and React.
 
-To get started, edit the sample React component: `src/components/facebook.js`
+To get started, edit the sample React component: `src/components/Facebook.js`
 
 FAQ
 ----
 
 ### But what about server-side rendering? 
 
-Checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside) by [@leftieFriele](http://www.github.com/leftieFriele)
+I didn't want to pull this into the core, but you should definitely checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside) by [@leftieFriele](http://www.github.com/leftieFriele).
+
+### What if I want to add Redux, Mobx, Gulp, Grunt, Mocha, etc. ?
+
+Put in an [issue](https://github.com/lynnaloo/mullet/issues) and we'll discuss it! I decided not to include many 3rd party modules in the core project unless I felt like it was something that was recommended by React or HapiJS and didn't add too much to the complexity. No matter what I think, you should [fork this] and make your own version with everything you want to add!
+
+### Are you using this in production?
+
+Noooooo. This is a good starter kit and learning tool. 
 
 Contributors
 ----
