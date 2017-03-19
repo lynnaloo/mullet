@@ -50,16 +50,19 @@ Party On!
 
 Point your browser to `http://localhost:8000` to see the sample page!
 
-#### But what about server-side rendering? 
-
-Checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside) by [@leftieFriele](http://www.github.com/leftieFriele)
-
 But Seriously
 ----
 
 This setup is a decent starting place to play around with Node, Hapi, and React.
 
 To get started, edit the sample React component: `src/components/facebook.js`
+
+FAQ
+----
+
+### But what about server-side rendering? 
+
+Checkout [this approach](https://github.com/leftieFriele/mullet/tree/serverside) by [@leftieFriele](http://www.github.com/leftieFriele)
 
 Contributors
 ----
