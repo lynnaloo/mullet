@@ -51,7 +51,7 @@
     "inert": "^4.1.0",
     "jest": "^20.0.1",
     "jquery": "^3.2.0",
-    "npm-watch": "^0.1.8",
+    "npm-watch": "^0.2.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-scripts": "^1.0.0",
