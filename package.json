@@ -59,7 +59,7 @@
     "webpack": "^3.0.0"
   },
   "devDependencies": {
-    "code": "^4.0.0",
+    "code": "^5.0.0",
     "enzyme": "^2.7.1",
     "eslint": "^4.6.0",
     "eslint-config-eta": "^1.0.0",
