@@ -53,7 +53,7 @@
     "jquery": "^3.2.0",
     "npm-watch": "^0.2.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.0.0",
     "react-scripts": "^1.0.0",
     "vision": "^4.1.1",
     "webpack": "^3.0.0"
