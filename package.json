@@ -69,6 +69,6 @@
     "lab": "^14.0.0",
     "prettier": "^1.0.1",
     "react-addons-test-utils": "^15.4.2",
-    "react-test-renderer": "^15.4.2"
+    "react-test-renderer": "^16.0.0"
   }
 }
