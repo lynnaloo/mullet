@@ -1,6 +1,9 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import Enzyme, { shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import Facebook from './Facebook';
+
+Enzyme.configure({ adapter: new Adapter() })
 
 describe('test Facebook component', () => {
   const title = 'mullet';

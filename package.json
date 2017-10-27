@@ -6,6 +6,11 @@
   "watch": {
     "test": "{src,test}/*.js"
   },
+  "jest": {
+    "setupFiles": [
+      "raf/polyfill"
+    ]
+  },
   "scripts": {
     "webpack": "webpack",
     "test": "jest --verbose && lab -v -l",
@@ -61,7 +66,8 @@
   },
   "devDependencies": {
     "code": "^5.0.0",
-    "enzyme": "^2.7.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
     "eslint": "^4.6.0",
     "eslint-config-eta": "^1.0.0",
     "eslint-plugin-babel": "^4.1.1",
@@ -69,6 +75,7 @@
     "jest-cli": "^21.0.0",
     "lab": "^14.0.0",
     "prettier": "^1.0.1",
+    "raf": "^3.4.0",
     "react-addons-test-utils": "^15.4.2",
     "react-test-renderer": "^15.4.2"
   }
