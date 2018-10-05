@@ -1,6 +1,9 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import Enzyme, { shallow, mount } from 'enzyme';
 import Facebook from './Facebook';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 describe('test Facebook component', () => {
   const title = 'mullet';
@@ -13,7 +16,7 @@ describe('test Facebook component', () => {
 
   it('test props', () => {
     const facebook = mount(<Facebook title={title} subtitle={subtitle} />);
-    expect(facebook.prop('title')).toEqual('mullet');
-    expect(facebook.prop('subtitle')).toEqual('stuff');
+    expect(facebook.props().title).toEqual('mullet');
+    expect(facebook.props().subtitle).toEqual('stuff');
   });
 });
