@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 const Styles = {
   flexContainer: {
@@ -52,8 +53,8 @@ export default class Facebook extends Component {
 }
 
 Facebook.propTypes = {
-  subtitle: React.PropTypes.string,
-  title: React.PropTypes.string
+  subtitle: PropTypes.string,
+  title: PropTypes.string
 };
 
 Facebook.defaultProps = {
