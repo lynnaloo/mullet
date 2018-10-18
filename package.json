@@ -52,15 +52,17 @@
     "jest": "^21.0.0",
     "jquery": "^3.2.0",
     "npm-watch": "^0.2.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
     "react-scripts": "^1.0.0",
     "vision": "^4.1.1",
     "webpack": "^3.0.0"
   },
   "devDependencies": {
     "code": "^5.0.0",
-    "enzyme": "^2.7.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "eslint": "^4.6.0",
     "eslint-config-eta": "^1.0.0",
     "eslint-plugin-babel": "^4.1.1",
@@ -68,7 +70,7 @@
     "jest-cli": "^21.0.0",
     "lab": "^14.0.0",
     "prettier": "^1.0.1",
-    "react-addons-test-utils": "^15.4.2",
-    "react-test-renderer": "^15.4.2"
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.5.2"
   }
 }
