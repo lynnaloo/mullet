@@ -57,7 +57,7 @@
     "react-dom": "^16.5.2",
     "react-scripts": "^1.0.0",
     "vision": "^4.1.1",
-    "webpack": "^3.0.0"
+    "webpack": "^4.22.0"
   },
   "devDependencies": {
     "code": "^5.0.0",
