@@ -7,13 +7,12 @@ module.exports = {
     filename: 'app.built.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
-        test: /.jsx?$/,
-        loader: 'babel-loader',
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        query: {
-          presets: ['es2015', 'react']
+        use: {
+          loader: "babel-loader",
         }
       }
     ]
