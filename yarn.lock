@@ -918,6 +918,10 @@ acorn-jsx@^4.1.1:
   dependencies:
     acorn "^5.0.3"
 
+acorn-jsx@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.0.tgz#958584ddb60990c02c97c1bd9d521fce433bb101"
+
 acorn-walk@^6.0.1:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-6.1.0.tgz#c957f4a1460da46af4a0388ce28b4c99355b0cbc"
@@ -3695,9 +3699,9 @@ eslint@5.6.0:
     table "^4.0.3"
     text-table "^0.2.0"
 
-eslint@5.7.x:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.7.0.tgz#55c326d6fb2ad45fcbd0ce17c3846f025d1d819c"
+eslint@5.9.x:
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.9.0.tgz#b234b6d15ef84b5849c6de2af43195a2d59d408e"
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
@@ -3781,12 +3785,13 @@ eslint@^4.6.0:
     table "4.0.2"
     text-table "~0.2.0"
 
-espree@4.0.x, espree@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/espree/-/espree-4.0.0.tgz#253998f20a0f82db5d866385799d912a83a36634"
+espree@4.1.x:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/espree/-/espree-4.1.0.tgz#728d5451e0fd156c04384a7ad89ed51ff54eb25f"
   dependencies:
-    acorn "^5.6.0"
-    acorn-jsx "^4.1.1"
+    acorn "^6.0.2"
+    acorn-jsx "^5.0.0"
+    eslint-visitor-keys "^1.0.0"
 
 espree@^3.5.4:
   version "3.5.4"
@@ -3794,6 +3799,13 @@ espree@^3.5.4:
   dependencies:
     acorn "^5.5.0"
     acorn-jsx "^3.0.0"
+
+espree@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/espree/-/espree-4.0.0.tgz#253998f20a0f82db5d866385799d912a83a36634"
+  dependencies:
+    acorn "^5.6.0"
+    acorn-jsx "^4.1.1"
 
 esprima@^3.1.3:
   version "3.1.3"
@@ -4767,6 +4779,10 @@ hoek@4.x.x, hoek@^4.2.0:
 hoek@5.x.x:
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-5.0.4.tgz#0f7fa270a1cafeb364a4b2ddfaa33f864e4157da"
+
+hoek@6.x.x:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/hoek/-/hoek-6.0.3.tgz#7884360426d927865a0a1251fc9c59313af5b798"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -6314,19 +6330,19 @@ kleur@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/kleur/-/kleur-2.0.2.tgz#b704f4944d95e255d038f0cb05fb8a602c55a300"
 
-lab@^17.0.0:
-  version "17.0.0"
-  resolved "https://registry.yarnpkg.com/lab/-/lab-17.0.0.tgz#7be2cd4e2928b6dcd154b65e6654a146f1671a3d"
+lab@^18.0.0:
+  version "18.0.0"
+  resolved "https://registry.yarnpkg.com/lab/-/lab-18.0.0.tgz#dbf16600c764f0799b3ef3d69d5ad4346925937b"
   dependencies:
     bossy "4.x.x"
     diff "3.5.x"
-    eslint "5.7.x"
+    eslint "5.9.x"
     eslint-config-hapi "12.x.x"
     eslint-plugin-hapi "4.x.x"
-    espree "4.0.x"
+    espree "4.1.x"
     find-rc "3.0.x"
     handlebars "4.x.x"
-    hoek "5.x.x"
+    hoek "6.x.x"
     json-stable-stringify "1.x.x"
     json-stringify-safe "5.x.x"
     mkdirp "0.5.x"
