@@ -1,7 +1,5 @@
 # The Mullet Stack
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/lynnaloo/mullet.svg)](https://greenkeeper.io/)
-
 [![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
 <img src="https://cloud.githubusercontent.com/assets/1610195/5716009/cf500292-9ab1-11e4-84a2-f93f9766afa9.png" align="center" width="200">
@@ -10,7 +8,7 @@
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
-[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet) [![Build Status](https://travis-ci.org/lynnaloo/mullet.svg)](https://travis-ci.org/lynnaloo/mullet) [![Join the chat at https://gitter.im/lynnaloo/mullet](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lynnaloo/mullet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet) [![Greenkeeper badge](https://badges.greenkeeper.io/lynnaloo/mullet.svg)](https://greenkeeper.io/) [![Build Status](https://dev.azure.com/lynnaloo/lynnaloo/_apis/build/status/lynnaloo.mullet?branchName=master)](https://dev.azure.com/lynnaloo/lynnaloo/_build/latest?definitionId=1&branchName=master)
 
 ## Get the Party Started
 
