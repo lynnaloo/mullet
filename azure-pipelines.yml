@@ -20,7 +20,6 @@ steps:
   displayName: 'running lint'
 - script: |
     npm install
-    npm run build
   displayName: 'npm install and build'
 - script: npm run test
   displayName: 'running tests'
