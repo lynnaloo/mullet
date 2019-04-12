@@ -69,7 +69,7 @@
     "eslint-plugin-react": "7.0.1",
     "jest-cli": "21.0.0",
     "lab": "17.0.0",
-    "prettier": "1.0.1",
+    "prettier": "1.17.0",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.5.2"
   }
