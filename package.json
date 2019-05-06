@@ -62,7 +62,7 @@
   "devDependencies": {
     "code": "5.0.0",
     "enzyme": "3.9.0",
-    "enzyme-adapter-react-16": "1.6.0",
+    "enzyme-adapter-react-16": "1.12.1",
     "eslint": "4.6.0",
     "eslint-config-eta": "1.0.0",
     "eslint-plugin-babel": "4.1.1",
