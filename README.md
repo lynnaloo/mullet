@@ -8,7 +8,7 @@
 
 All sitting on top of [Node.js](http://nodejs.org/).
 
-[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet) [![Greenkeeper badge](https://badges.greenkeeper.io/lynnaloo/mullet.svg)](https://greenkeeper.io/) [![Build Status](https://dev.azure.com/lynnaloo/lynnaloo/_apis/build/status/lynnaloo.mullet?branchName=master)](https://dev.azure.com/lynnaloo/lynnaloo/_build/latest?definitionId=1&branchName=master)
+[![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet) [![Greenkeeper badge](https://badges.greenkeeper.io/lynnaloo/mullet.svg)](https://greenkeeper.io/) [![Build Status](https://dev.azure.com/linicho/Mullet/_apis/build/status/lynnaloo.mullet?branchName=master)](https://dev.azure.com/linicho/Mullet/_build/latest?definitionId=1&branchName=master)
 
 ## Get the Party Started
 
