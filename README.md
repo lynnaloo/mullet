@@ -32,7 +32,7 @@ yarn start
 
 Watch the client folders for changes during development:
 
-```
+````
 yarn watch
 ```
 
