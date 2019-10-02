@@ -53,9 +53,9 @@
     "jquery": "3.4.1",
     "npm-watch": "0.2.0",
     "prop-types": "15.6.2",
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "react-scripts": "2.1.0",
+    "react": "16.10.1",
+    "react-dom": "16.10.1",
+    "react-scripts": "3.1.2",
     "vision": "4.1.1",
     "webpack": "3.0.0"
   },
