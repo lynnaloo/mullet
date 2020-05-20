@@ -14,26 +14,24 @@ All sitting on top of [Node.js](http://nodejs.org/).
 
 Install [Node.js](http://nodejs.org/)
 
-Install [Yarn](https://yarnpkg.com/lang/en/docs/install/)
-
 ### Setup the Mullet stack for development:
 
 ```
 git clone https://github.com/lynnaloo/mullet
 cd mullet
-yarn install
+npm install
 ```
 
 Start the Mullet Server:
 
 ```
-yarn start
+npm start
 ```
 
 Watch the client folders for changes during development:
 
 ````
-yarn watch
+npm watch
 ```
 
 #### OR
@@ -41,13 +39,13 @@ yarn watch
 ### Install the Mullet module:
 
 ```
-yarn add mullet
+npm add mullet
 ```
 
 Start the Mullet Server:
 
 ```
-yarn start mullet
+npm start mullet
 ```
 
 ## Party On!
