@@ -9,8 +9,8 @@
 All sitting on top of [Node.js](http://nodejs.org/).
 
 [![NPM version](https://badge.fury.io/js/mullet.svg)](http://badge.fury.io/js/mullet)
-[![Build Status](https://dev.azure.com/lynnaloo/Mullet/_apis/build/status/lynnaloo.mullet?branchName=master)
-[![Azure Static Web Apps CI/CD](https://github.com/lynnaloo/mullet/workflows/Azure%20Static%20Web%20Apps%20CI/CD/badge.svg)
+![Build Status](https://dev.azure.com/lynnaloo/Mullet/_apis/build/status/lynnaloo.mullet?branchName=master)
+![Azure Static Web Apps CI/CD](https://github.com/lynnaloo/mullet/workflows/Azure%20Static%20Web%20Apps%20CI/CD/badge.svg)
 
 ## Get the Party Started
 
