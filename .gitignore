@@ -1,7 +1,4 @@
 node_modules
-public/css/bootstrap*.min.css
 public/js/app.built.js
-public/js/jquery.min.*
-public/js/bootstrap.min.js
 .DS_Store
 npm-debug.log

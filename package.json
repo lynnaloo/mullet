@@ -7,13 +7,13 @@
     "test": "{src,test}/*.js"
   },
   "scripts": {
-    "webpack": "webpack",
+    "build": "webpack",
     "test": "jest --verbose && lab -v -l",
     "lint": "eslint . --ext .js",
     "watch": "npm-watch",
     "start": "node walmart.js",
     "format": "prettier --single-quote --write *.js src/components/*.js test/*.js",
-    "postinstall": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.min.js node_modules/jquery/dist/jquery.min.* public/js && cp node_modules/bootstrap/dist/css/bootstrap*.min.css public/css && npm run webpack"
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": "8.12"
@@ -43,20 +43,14 @@
     "babel-loader": "7.0.0",
     "babel-preset-es2015": "6.3.13",
     "babel-preset-react": "6.3.13",
-    "blipp": "2.3.0",
-    "body-parser": "1.19.0",
-    "bootstrap": "4.4.0",
-    "h2o2": "6.0.0",
-    "hapi": "16.1.0",
-    "inert": "4.1.0",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
     "jest": "21.0.0",
-    "jquery": "3.5.0",
     "npm-watch": "0.2.0",
     "prop-types": "15.6.2",
     "react": "16.10.1",
     "react-dom": "16.10.1",
     "react-scripts": "3.1.2",
-    "vision": "4.1.1",
     "webpack": "3.0.0"
   },
   "devDependencies": {

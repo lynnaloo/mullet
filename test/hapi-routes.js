@@ -28,10 +28,10 @@ lab.experiment('General Endpoint Tests', () => {
     });
   });
 
-  lab.test('GET /data', done => {
+  lab.test('GET /greeting', done => {
     const options = {
       method: 'GET',
-      url: '/data'
+      url: '/greeting'
     };
     server.inject(options, response => {
       Code.expect(response.statusCode).to.equal(200);
