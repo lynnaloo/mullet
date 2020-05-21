@@ -12,8 +12,7 @@
     "lint": "eslint . --ext .js",
     "watch": "npm-watch",
     "start": "node walmart.js",
-    "format": "prettier --single-quote --write *.js src/components/*.js test/*.js",
-    "postinstall": "npm run build"
+    "format": "prettier --single-quote --write *.js src/components/*.js test/*.js"
   },
   "repository": {
     "type": "git",

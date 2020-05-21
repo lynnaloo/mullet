@@ -20,6 +20,7 @@ Install [Node.js](http://nodejs.org/)
 git clone https://github.com/lynnaloo/mullet
 cd mullet
 npm install
+npm run build
 ```
 
 Start the Mullet Server:
