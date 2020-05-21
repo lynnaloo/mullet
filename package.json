@@ -1,6 +1,6 @@
 {
   "name": "mullet",
-  "version": "0.0.23",
+  "version": "1.0.0",
   "description": "Mullet Stack: Facebook in the front. Walmart in the back. (React.js/Hapi)",
   "main": "walmart.js",
   "watch": {
@@ -14,9 +14,6 @@
     "start": "node walmart.js",
     "format": "prettier --single-quote --write *.js src/components/*.js test/*.js",
     "postinstall": "npm run build"
-  },
-  "engines": {
-    "node": "8.12"
   },
   "repository": {
     "type": "git",
